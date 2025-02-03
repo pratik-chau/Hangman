@@ -1,35 +1,35 @@
-# Hangman Game in C
+# Hangman Game in C 🎮
 
-Welcome to the **Hangman Game** implemented in C! This is a classic word-guessing game where you have to guess the hidden word before running out of attempts. The game is simple, fun, and a great way to test your vocabulary skills. 
+Welcome to the **Hangman Game** implemented in C! This is a classic word-guessing game where you have to guess the hidden word before running out of attempts. The game is simple, fun, and a great way to test your vocabulary skills. 🧠✨
 
-This project is written in C and demonstrates basic programming concepts like arrays, loops, functions, and string manipulation. It also includes a visual representation of the hangman as you make incorrect guesses.
+This project is written in C and demonstrates basic programming concepts like arrays, loops, functions, and string manipulation. It also includes a visual representation of the hangman as you make incorrect guesses. 🖼️
 
 ---
 
-## How to Play
+## How to Play 🕹️
 
-1. **Objective**: Guess the hidden word before you run out of attempts.
+1. **Objective**: Guess the hidden word before you run out of attempts. 🎯
 2. **Rules**:
-   - You have **6 attempts** to guess the word correctly.
-   - Each incorrect guess brings you closer to losing the game.
-   - A hint is provided to help you guess the word.
+   - You have **6 attempts** to guess the word correctly. ⏳
+   - Each incorrect guess brings you closer to losing the game. ❌
+   - A hint is provided to help you guess the word. 💡
 3. **Gameplay**:
-   - The game will display blanks (`_`) representing the letters of the word.
-   - Enter a letter to guess. If the letter is in the word, it will be revealed.
-   - If the letter is not in the word, you lose an attempt, and the hangman is drawn.
+   - The game will display blanks (`_`) representing the letters of the word. 🔤
+   - Enter a letter to guess. If the letter is in the word, it will be revealed. ✅
+   - If the letter is not in the word, you lose an attempt, and the hangman is drawn. 🪢
 
 ---
 
-## Features
+## Features 🌟
 
-- **Random Word Selection**: The game randomly selects a word from a predefined list.
-- **Hints**: Each word comes with a hint to help you guess.
-- **Visual Hangman**: The game displays the hangman as you make incorrect guesses.
-- **User-Friendly**: Simple and intuitive interface for players.
+- **Random Word Selection**: The game randomly selects a word from a predefined list. 🎲
+- **Hints**: Each word comes with a hint to help you guess. 🧩
+- **Visual Hangman**: The game displays the hangman as you make incorrect guesses. 🎨
+- **User-Friendly**: Simple and intuitive interface for players. 👨‍💻👩‍💻
 
 ---
 
-## Installation and Setup
+## Installation and Setup ⚙️
 
 To run this Hangman game on your local machine, follow these steps:
 
@@ -53,49 +53,49 @@ To run this Hangman game on your local machine, follow these steps:
 
 ---
 
-## Code Structure
+## Code Structure 🏗️
 
 The code is organized into the following components:
 
 - **Main Function**:
-  - Handles the game loop, user input, and word selection.
-  - Tracks the number of attempts and checks for win/loss conditions.
+  - Handles the game loop, user input, and word selection. 🔄
+  - Tracks the number of attempts and checks for win/loss conditions. 🏁
 
 - **Helper Functions**:
-  - `displayWord`: Displays the current state of the word with guessed letters revealed.
-  - `drawHangman`: Draws the hangman based on the number of incorrect guesses.
+  - `displayWord`: Displays the current state of the word with guessed letters revealed. 🔍
+  - `drawHangman`: Draws the hangman based on the number of incorrect guesses. 🖌️
 
 - **Word List**:
-  - A list of words and their corresponding hints is stored in a struct array.
-
+  - A list of words and their corresponding hints is stored in a struct array. 📜
 ---
-## Contributing
+
+## Contributing 🤝
 
 Contributions are welcome! If you'd like to improve this project, feel free to:
 
-1. Add more words and hints to the word list.
-2. Enhance the user interface or add new features.
-3. Optimize the code for better performance.
+1. Add more words and hints to the word list. 📚
+2. Enhance the user interface or add new features. 🛠️
+3. Optimize the code for better performance. 🚀
 
 To contribute, follow these steps:
 
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Submit a pull request with a detailed description of your changes.
+1. Fork the repository. 🍴
+2. Create a new branch for your changes. 🌿
+3. Submit a pull request with a detailed description of your changes. 📝
 
 ---
 
-## License
+## License 📜
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Acknowledgments
+## Acknowledgments 🙏
 
-- Inspired by the classic Hangman game.
-- Thanks to the C programming community for resources and inspiration.
+- Inspired by the classic Hangman game. 🎲
+- Thanks to the C programming community for resources and inspiration. 💻
 
 ---
 
-Enjoy the game, and happy guessing! 🎮
+Enjoy the game, and happy guessing! 🎉🧩
